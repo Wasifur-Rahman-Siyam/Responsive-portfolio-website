@@ -9,26 +9,131 @@
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
 <body>
-    <!-- top Nav section -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-                <div class="container">
-                    <div class="logo">
-                        <a class="navbar-brand" href="#"><img src="Assets/images/logo2.png" alt="logo"></a>
-                    </div>
-                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav ms-auto nav-item-container">
-                            <a href="#" class="nav-item ">Home</a>
-                            <a href="#" class="nav-item ">Profile</a>
-                            <a href="#" class="nav-item ">Messages</a>
-                            <a href="#" class="nav-item ">Reports</a>
-                            <a href="#" class="nav-item ">Login</a>
-                        </div>
-                    </div>
+    <!-- Home section -->
+        <!-- Nav section -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container">
+                <div class="logo">
+                    <a class="navbar-brand" href="#"><img src="Assets/images/logo2.png" alt="logo"></a>
                 </div>
-            </nav>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto nav-item-container">
+                        <a href="#home" class="nav-item ">Home</a>
+                        <a href="#about" class="nav-item ">About</a>
+                        <a href="#service" class="nav-item ">Services</a>
+                        <a href="#" class="nav-item ">Skills & Certifications</a>
+                        <a href="#" class="nav-item ">Contact</a>
+                    </div>
+                    <div class="navbar-nav ms-auto nav-item-container">
+                        <button type="button" class="cv-btn">Download CV</button>
+                    </div>    
+                </div>
+            </div>
+        </nav>
+
+    <!-- Home detail section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                <div class="details text-center text-lg-start">
+                    <h1>Hi. I'm</h1>
+                    <h1>MD. WASIFUR RAHMAN SIYAM</h1>
+                    <h3>Fullstack Web Application developer</h3>
+                    <button type="button" class="hire-btn">Hire Me</button>
+                </div>
+            </div>
+            <div class="col-lg-7 d-flex justify-content-center align-items-center ">
+                <div class="home-image-container">
+                    <img src="Assets/images/background.png" alt="" class="my-image">
+                    <img src="Assets/images/home-img.png" alt="" class="my-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div> 
+
+    <!-- About section -->
+    <div class="container min-vh-100 py-5" id="about">
+        <div class="row my-lg-5">
+            <div class="col-lg-5 d-flex justify-content-center" >
+                <div class="about-image-container">
+                    <img src="Assets/images/siyam_pic-removebg-preview-removebg-preview.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7 about-text-container">
+                <h1>About Me</h1>
+                <p>I am Md. Wasifur Rahman Siyam from Bangladesh. I am an undergraduate student, completing my graduation in Computer Science and Engineering (C.S.E) from National University</p>
+                <p>I am a Fullstack Web Application developer With a passion for learning new programming languages and developing innovative applications. I can provide clean code, pixel-perfect and responsive design. Skilled in PHP, Laravel is Eager to join a team of developers and contribute to developing cutting-edge applications.</p>
+                <button type="button" class="cv-btn">Download CV</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div class="container min-vh-100 py-md-5" id="service">
+        <div class="row text-center mt-md-5">
+            <h1 class="mb-4">My Services</h1>
+          <div class="col-md-4 mb-3">
+            <div class="card border-light">
+              <div class="card-body">
+                <div class="card-icon"><img src="Assets/images/icons8-front-end-64.png" alt=""></div>
+                <h5 class="card-title">Front-End Development</h5>
+                <p class="card-text">Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card text-center border-light">
+              <div class="card-body">
+                <div class="card-icon"><img src="Assets/images/icons8-coding-64.png" alt=""></div>
+                <h5 class="card-title">Back-End Development</h5>
+                <p class="card-text">Back-end Development refers to the server-side development. It focuses on databases, scripting, website architecture. It contains behind-the-scene activities that occur when performing any action on a website. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="card text-center border-light">
+              <div class="card-body">
+                <div class="card-icon"><img src="Assets/images/icons8-online-maintenance-portal-50.png" alt=""></div>
+                <h5 class="card-title">Website Maintenance</h5>
+                <p class="card-text">Website maintenance is the process of keeping a website up-to-date and running smoothly as well as performing optimally. Website maintenance includes tasks like ensuring your site are working, regularly updating content</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills and certificates -->
+      <div class="container min-vh-100 py-md-5" id="service">
+        <div class="row text-center mt-md-5">
+            <h1 class="mb-4">My Skills</h1>
+          <div class="col-md-2 mb-3">
+            <div class="card border-light">
+              <div class="card-body">
+                <div class="skill-card-icon"><img src="Assets/images/icons8-html-5-50.png" alt=""></div>
+                <h5 class="card-title">Html 5</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 mb-3">
+            <div class="card border-light">
+              <div class="card-body">
+                <div class="skill-card-icon"><img src="Assets/images/icons8-css3-50.png" alt=""></div>
+                <h5 class="card-title">CSS 3</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://kit.fontawesome.com/45f49eb8bc.js" crossorigin="anonymous"></script>
     <script src="Assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
