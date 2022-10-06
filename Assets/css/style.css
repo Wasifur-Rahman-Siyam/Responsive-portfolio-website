@@ -149,6 +149,13 @@ h1{
     margin-right:auto;
     margin-bottom: 1rem;
 }
+/* certificate */
+.certificate-card-image{
+    width: 100%;
+}
+.certificate-card-image img{
+    width: 100%;
+}
 .skill-card-icon img{width: 100%;}
 @media (max-width: 992px) {
     .about-image-container{width: 50%;}
