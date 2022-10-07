@@ -8,7 +8,7 @@
 
 body{
     width: 100wh;
-    height: 100vh;
+    height: 100%;
     font-family: 'Oswald', sans-serif;
     background-color: #000;
 }
@@ -16,6 +16,9 @@ body{
 h1{
     color: #FEE600;
     font-weight: 500;
+}
+h3{
+    color: #fff;
 }
 /* Home section */
 .logo{
@@ -78,7 +81,7 @@ h1{
     font-weight: 450;
 }
 
-.hire-btn{
+.general-btn{
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
     font-weight: bold;
@@ -87,7 +90,7 @@ h1{
     border-radius: 0.25rem;
 }
 
-.hire-btn:hover{
+.general-btn:hover{
     cursor: pointer;
     background-color: #FEE600;
 }
@@ -156,7 +159,31 @@ h1{
 .certificate-card-image img{
     width: 100%;
 }
+
 .skill-card-icon img{width: 100%;}
+
+/* Contact */
+.social-icon {
+    display: inline-flex;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin-right: 0.25rem;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.form-label{
+    font-size: 1.4rem;
+    color: #fff;
+}
+/* footer */
+.footer{
+    color: #fff;
+}
 @media (max-width: 992px) {
     .about-image-container{width: 50%;}
     .about-text-container{text-align: center;}
