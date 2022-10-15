@@ -20,6 +20,9 @@ h1{
 h3{
     color: #fff;
 }
+.text-margin{
+    margin-top: 70px;
+}
 /* Home section */
 .logo{
     width: 150px;
@@ -192,4 +195,5 @@ h3{
     .about-image-container{width: 50%;}
     .about-text-container{text-align: center;}
 }
+
 
